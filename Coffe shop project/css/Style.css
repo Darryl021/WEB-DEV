@@ -1,0 +1,81 @@
+  
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Pushes the navigation to the middle */
+}
+
+header img {
+  width: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+nav {
+  top: 10px;
+  /* Removed the right and top positioning */
+}
+
+nav ul {    
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  font-size: 20px;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px; /* Adjust margin-top as needed */
+  margin-bottom: 20%;
+  overflow: hidden;
+}
+
+.menu {
+  width: 40%;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.menu h1 {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.address {
+  float: right;
+  width: 40%;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.address h1 {
+  margin-top: 0;
+}
+
+.footer {
+      text-align: center; /* Center the links */
+}
+
+.footer a {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 1px solid black; /* Add borders */
+  margin: 0 5px; /* Add spacing between the links */
+}
